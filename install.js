@@ -17,6 +17,7 @@ try {
 }
 
 var platform = os.platform()
+platform = "linux"
 
 function onerror (err) {
   throw err
